@@ -18,7 +18,10 @@ import CityTravelImg from '@/assets/CityTravel.png'
 import WorldMartia from '@/assets/WorldMartia.png'
 import rockpaper from '@/assets/rockpaper.png'
 import ColorDifferenceGame from '@/assets/ColorDifferenceGame.png'
-import ArtPortfolio from '@/assets/photoshop.png'
+import ArtPortfolio2D from '@/assets/photoshop.png'
+import Art3DCover from '@/assets/3dsmax.png'
+
+
 
 const router = useRouter()
 
@@ -51,8 +54,14 @@ const projects = [
     id: 'art',
     title: '繪畫作品集',
     description: '2D 繪畫作品展示',
-    image: ArtPortfolio
-  }
+    image: ArtPortfolio2D
+  },
+  {
+    id: 'art3d',
+    title: '3D 繪圖作品集',
+    description: '展示 3D 建模與渲染作品',
+    image: Art3DCover
+  },
 ]
 
 const goDetail = (id) => {

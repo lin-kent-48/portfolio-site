@@ -10,6 +10,7 @@ const routes = [
   { path: '/projects', name: 'projects', component: ProjectsView },
   { path: '/projects/:id', name: 'project-detail', component: ProjectDetailView },
   { path: '/projects/art',name: 'ArtDetail', component: () => import('@/views/ArtDetail.vue')},
+  { path: '/projects/art3d',name: 'Art3DDetail', component: () => import('@/views/Art3DDetail.vue')},
 ]
 
 const router = createRouter({
