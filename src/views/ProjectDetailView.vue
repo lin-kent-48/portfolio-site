@@ -23,6 +23,7 @@ import { useRoute } from 'vue-router'
 import CityTravelImg from '@/assets/CityTravel.png'
 import WorldMartia from '@/assets/WorldMartia.png'
 import rockpaper from '@/assets/rockpaper.png'
+import ColorDifferenceGame from '@/assets/ColorDifferenceGame.png'
 
 const route = useRoute()
 const id = route.params.id
@@ -49,6 +50,13 @@ const projectData = {
     image: rockpaper,
     tags: ['Vue.js', 'JavaScript', '互動式UI'],
     github: 'https://lin-kent-48.github.io/ScissorsRockPaper/',
+  },
+  color: {
+    title: '色彩差異遊戲',
+    description: '這是一個測試玩家對色彩差異辨識能力的遊戲，包含多種難度等級。',
+    image: ColorDifferenceGame,
+    tags: ['Vue.js', 'JavaScript', '互動式UI'],
+    github: 'https://lin-kent-48.github.io/ColorDifferenceGame/',
   }
 }
 

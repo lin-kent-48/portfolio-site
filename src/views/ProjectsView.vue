@@ -24,6 +24,7 @@ import { useRouter } from 'vue-router'
 import CityTravelImg from '@/assets/CityTravel.png'
 import WorldMartia from '@/assets/WorldMartia.png'
 import rockpaper from '@/assets/rockpaper.png'
+import ColorDifferenceGame from '@/assets/ColorDifferenceGame.png'
 
 const router = useRouter()
 
@@ -45,6 +46,12 @@ const projects = [
     title: '猜拳 APP',
     description: '互動式剪刀石頭布遊戲',
     image: rockpaper
+  },
+  {
+    id: 'color',
+    title: '色彩差異遊戲',
+    description: '測試玩家對色彩差異辨識能力的遊戲',
+    image: ColorDifferenceGame
   }
 ]
 
