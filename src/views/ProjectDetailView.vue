@@ -48,14 +48,14 @@ const projectData = {
     title: '猜拳 APP',
     description: '這是一個互動式剪刀石頭布遊戲，玩家可以與電腦對戰，並有分數紀錄與清除功能。',
     image: rockpaper,
-    tags: ['Vue.js', 'JavaScript', '互動式UI'],
+    tags: ['JavaScript', '互動式UI'],
     github: 'https://lin-kent-48.github.io/ScissorsRockPaper/',
   },
   color: {
     title: '色彩差異遊戲',
     description: '這是一個測試玩家對色彩差異辨識能力的遊戲，包含多種難度等級。',
     image: ColorDifferenceGame,
-    tags: ['Vue.js', 'JavaScript', '互動式UI'],
+    tags: ['JavaScript', '互動式UI'],
     github: 'https://lin-kent-48.github.io/ColorDifferenceGame/',
   }
 }
