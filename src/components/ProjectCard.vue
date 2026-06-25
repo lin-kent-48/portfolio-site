@@ -3,7 +3,9 @@
     <img :src="image" alt="作品圖片" class="card-img" />
     <h3>{{ title }}</h3>
     <p>{{ description }}</p>
-    <button @click="$emit('view-detail', id)">查看作品</button>
+    <div class="card-footer">
+      <button @click="$emit('view-detail', id)">查看作品</button>
+    </div>
   </div>
 </template>
 
@@ -20,18 +22,30 @@ const props = defineProps({
 </script>
 
 <style scoped>
+
 .project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 12px;
   width: 250px;
+  /* 移除 height: 350px */
   text-align: center;
 }
+
 .card-img {
   width: 100%;
   border-radius: 6px;
   margin-bottom: 8px;
 }
+
+.card-footer {
+  margin-top: auto;
+  /* ✅ 把按鈕推到底部 */
+}
+
 button {
   background: #3498db;
   color: white;
@@ -40,6 +54,7 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+
 button:hover {
   background: #2980b9;
 }

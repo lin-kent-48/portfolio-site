@@ -8,7 +8,8 @@ const routes = [
   { path: '/', name: 'home', component: HomeView },
   { path: '/skills', name: 'skills', component: SkillsView },
   { path: '/projects', name: 'projects', component: ProjectsView },
-  { path: '/projects/:id', name: 'project-detail', component: ProjectDetailView }
+  { path: '/projects/:id', name: 'project-detail', component: ProjectDetailView },
+  { path: '/projects/art',name: 'ArtDetail', component: () => import('@/views/ArtDetail.vue')},
 ]
 
 const router = createRouter({
