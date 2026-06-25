@@ -33,7 +33,7 @@
 }
 
 .grid img {
-  width: 200px;
+  width: 300px;   
   border-radius: 8px;
   object-fit: cover;
 }
