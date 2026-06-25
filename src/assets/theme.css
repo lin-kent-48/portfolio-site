@@ -1,0 +1,79 @@
+:root {
+  /* 主題色系 */
+  --color-primary: #1abc9c;   /* 藍綠主色 */
+  --color-secondary: #2ecc71; /* 清新綠 */
+  --color-accent: #3498db;    /* 淡藍強調色 */
+  --color-bg: #ecf9f6;        /* 淺綠白背景 */
+  --color-text: #2c3e50;      /* 深灰文字 */
+}
+
+/* 全域背景與文字 */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Inter', 'Noto Sans TC', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 導覽列 */
+nav {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  color: white;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* 標題 */
+h2 {
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+
+/* 按鈕 */
+button,
+a.button {
+  background-color: var(--color-accent);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover,
+a.button:hover {
+  background-color: var(--color-secondary);
+}
+
+/* 卡片 */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 16px;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Footer */
+footer {
+  background-color: var(--color-primary);
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin-top: 40px;
+}
