@@ -24,6 +24,7 @@ import CityTravelImg from '@/assets/CityTravel.png'
 import WorldMartia from '@/assets/WorldMartia.png'
 import rockpaper from '@/assets/rockpaper.png'
 import ColorDifferenceGame from '@/assets/ColorDifferenceGame.png'
+import TeamProjectCover from '@/assets/teamproject.png'
 
 const route = useRoute()
 const id = route.params.id
@@ -57,6 +58,13 @@ const projectData = {
     image: ColorDifferenceGame,
     tags: ['JavaScript', '互動式UI'],
     github: 'https://lin-kent-48.github.io/ColorDifferenceGame/',
+  },
+   team: {
+    title: '團體專題作品',
+    description: '這是一個由團隊合作完成的專題，包含前端、後端與設計整合，展現了完整的開發流程。',
+    image: TeamProjectCover,
+    tags: ['Vue.js', 'Node.js', '團隊合作'],
+    github: 'https://github.com/your-team-project'
   }
 }
 

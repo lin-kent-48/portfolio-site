@@ -20,6 +20,7 @@ import rockpaper from '@/assets/rockpaper.png'
 import ColorDifferenceGame from '@/assets/ColorDifferenceGame.png'
 import ArtPortfolio2D from '@/assets/photoshop.png'
 import Art3DCover from '@/assets/3dsmax.png'
+import TeamProjectCover from '@/assets/teamproject.png'
 
 
 
@@ -62,6 +63,12 @@ const projects = [
     description: '展示 3D 建模與渲染作品',
     image: Art3DCover
   },
+   {
+    id: 'team',
+    title: '團體專題作品',
+    description: '這是一個團隊合作完成的專題網站，展示了協作與整合能力。',
+    image: TeamProjectCover
+  }
 ]
 
 const goDetail = (id) => {
