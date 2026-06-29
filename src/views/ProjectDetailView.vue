@@ -61,10 +61,10 @@ const projectData = {
   },
    team: {
     title: '團體專題作品',
-    description: '這是一個由團隊合作完成的專題，包含前端、後端與設計整合，展現了完整的開發流程。',
+    description: '這是改版文化部iculture的專題作品,改版核心在改善使用者體驗,目標放在能讓使用者能更深度的連結使用文化網站。',
     image: TeamProjectCover,
     tags: ['Vue.js', 'Node.js', '團隊合作'],
-    github: 'https://github.com/your-team-project'
+    github: 'https://nchu-11503-iculture.dev-hub.io/'
   }
 }
 
